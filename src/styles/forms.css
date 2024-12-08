@@ -1,0 +1,68 @@
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #5c5c5c;
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #6e6e6e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .success-message {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .strength {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .strength.strong {
+    color: green;
+  }
+  
+  .strength.moderate {
+    color: orange;
+  }
+  
+  .strength.weak {
+    color: red;
+  }
+  
